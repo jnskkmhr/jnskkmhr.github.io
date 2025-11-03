@@ -1,114 +1,87 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Junnosuke Kamohara",
+    "email": "jkamohara3@gatech.edu",
+    "url": "https://jnskkmhr.github.io/al-folio/"
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Research Assistant",
+      "url": "https://lab-idar.gatech.edu/",
+      "startDate": "2024-08-15",
+      "endDate": "present",
+      "summary": "PhD graduate assistant working under Dr. Ye Zhao."
+    }, 
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "University of Luxembourg, SpaceR",
+      "position": "Research Assistant",
+      "url": "https://www.spacer.lu/",
+      "startDate": "2024-02-01",
+      "endDate": "2024-04-31",
+      "summary": "Implementation of reinforcement learning based low level controller for rendezvous in orbital robotics applications."
+    }, 
+    {
+      "name": "Guide Robotics",
+      "position": "Robotics & AI intern",
+      "url": "https://guiderobotics.com/en/",
+      "startDate": "2022-12-01",
+      "endDate": "2024-03-01",
+      "summary": "Working on visual inertial SLAM benchmark, integration of Oak-D camera to the company's VIO system, constructiono of warehouse simulation environment in IsaacSim, and development of autonomous navigation and behavior planning."
+    }, 
+    {
+      "name": "Matsuo Institute",
+      "position": "AI intern",
+      "url": "https://matsuo-institute.com/",
+      "startDate": "2021-11-01",
+      "endDate": "2023-12-31",
+      "summary": "Working on neural camera and LiDAR simulations using neural implicit models, implementation of action conditioned VideoGPT for path prediction in autonomous driving, evaluation of scaling law in video prediction models, and unsupervised domain adaptation for point cloud semantic segmentation."
+    }, 
+    {
+      "name": "Zero to One",
+      "position": "AI intern",
+      "url": "https://zero2one.jp/",
+      "startDate": "2021-3-01",
+      "endDate": "2022-12-31",
+      "summary": "Development of the chat system purposed to educate medical students for the clinical interview and prepation of teaching materials for the Japanese deep learning qualification exam (JDLA Deep Learning for Engineer)."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Georgia Institute of Technology, Atlanta, United States",
+      "location": "Atlanta, United States",
+      "url": "https://www.gatech.edu/",
+      "area": "Legged locomotion",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2024-08-15",
+      "endDate": "present"
+    }, 
+    {
+      "institution": "Tohoku University, Sendai, Japan",
+      "location": "Sendai, Japan",
+      "url": "https://www.tohoku.ac.jp/",
+      "area": "Aerospace engineering",
+      "studyType": "MS",
+      "startDate": "2023-10-01",
+      "endDate": "2024-06-01 (self withdrawn)"
+    },
+    {
+      "institution": "Tohoku University, Sendai, Japan",
+      "location": "Sendai, Japan",
+      "url": "https://www.tohoku.ac.jp/",
+      "area": "Aerospace engineering",
+      "studyType": "BS",
+      "startDate": "2020-04-01",
+      "endDate": "2023-09-30"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "Nakajima Foundation Fellowship",
+      "date": "2024-08-01",
+      "awarder": "Nakajima Foundation",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "summary": "The program supports tuition (maximum 3 million JPY) and a stipend of 300,000 JPY, equivalent to approximately 2,000 USD a month. Tuition is supported for the first two years."
     }
   ],
   "publications": [
@@ -136,22 +109,61 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C/C++",
+        "MATLAB"
+      ]
+    }, 
+    {
+      "name": "Robotics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "ROS1/ROS2",
+        "IsaacSim/IsaacLab",
+        "Mujoco/Mujoco-warp", 
+        "Gazebo", 
+        "Wheeled robots", 
+        "Bipedal robots"
+      ]
+    }, 
+    {
+      "name": "Software",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow", 
+        "Warp", 
+        "CasADi",
+        "Docker", 
+        "OpenCV", 
+        "SolidWorks", 
+        "Fusion360", 
+        "EAGLE"
+      ]
+    }, 
+    {
+      "name": "Hardware",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "PCB design",
+        "Milling machine", 
+        "Lathe", 
+        "Laser cutter",
+        "Drill", 
+        "3D printer"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Japanese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,38 +175,29 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Skill-rich locomotion/locomanipulation",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Skill learning",
+        "Generalizable policy"
       ]
-    }
-  ],
-  "references": [
+    }, 
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
+      "name": "Combination of Model-based and Reinforcement Learning",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Model-enhanced reinforcement learning",
+        "Residual reinforcement learning",
+        "RL-augmented model predictive control"
+      ]
+    }, 
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Granular media locomotion",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Resistive force theory",
+        "Soft contact solver"
+      ]
     }
   ]
 }
