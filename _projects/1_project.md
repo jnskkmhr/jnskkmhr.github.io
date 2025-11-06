@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: OmniLRS: A Photorealistic Simulator for Lunar Robotics
 description: Robotics simulator targetted for planetary exploration
@@ -107,4 +107,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %} -->
+{% endraw %} --> -->

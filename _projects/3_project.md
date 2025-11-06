@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Bipedal locomotion on granular media
 description: A project aiming for bipedal locomotion on sloped granular media
@@ -82,4 +82,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %} -->
+{% endraw %} --> -->
