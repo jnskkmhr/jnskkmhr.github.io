@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Junnosuke Kamohara and currently a 2nd-year Robotics PhD student at Georgia Institute of Technology, LiDAR group. 
-My research interests lie in (1) Combination of model-based and learning-based controllers in legged robotics, (2) system identification of outdoor natural terrain, (3) whole-body locomanipulation. 
-If you are interested in my background or possible collaboration in research, please send email to me: jkamohara3@gatech.edu. 
+I am Junnosuke Kamohara and currently a 2nd-year Robotics PhD student at Georgia Institute of Technology, [LiDAR group](https://lab-idar.gatech.edu/). 
+My research interests are (1) Combination of model-based and learning-based controllers in legged robotics, (2) system identification of outdoor natural terrain, (3) Perceptive locomotion in outdoor challenging terrain.
+If you are interested in my background or possible research collaboration, please reach out to me!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
