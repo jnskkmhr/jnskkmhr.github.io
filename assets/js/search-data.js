@@ -402,27 +402,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-rover-revival-project",
-          title: 'Rover revival project',
-          description: "Development of system development of lunar rover Moonraker",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-bipedal-locomotion-on-granular-media",
-          title: 'Bipedal locomotion on granular media',
-          description: "A project aiming for bipedal locomotion on sloped granular media",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-rl-augmented-adaptive-model-predictive-control-for-bipedal-locomotion-over-challenging-terrain",
-          title: 'RL-augmented Adaptive Model Predictive Control for Bipedal Locomotion over Challenging Terrain',
-          description: "ICRA26 submission.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',

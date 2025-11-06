@@ -1,13 +1,18 @@
 <!-- ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Bipedal locomotion on granular media
+description: A project aiming for bipedal locomotion on sloped granular media
+img: assets/img/project_preview/hector_gm_1.png
+redirect: https://unsplash.com
 importance: 3
-category: fun
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
+This projects introduces "cleats" which consists of thin plates extending vertically from the foot. 
+Optimally spaced cleats allow the granular material to remain near or below the yielding stress, facilitating low-slip locomotion. 
+We demonstrate successful system scalability from a robophysical model to a 3D unconstrained bipedal robot on 15deg GM slope.
+
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -77,4 +82,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %} -->
+{% endraw %} --> -->
