@@ -9,5 +9,4 @@ cv_pdf: MyCV.pdf # you can also use external links here
 toc:
   sidebar: left
 ---
-
 Please click on the icon to download my CV.

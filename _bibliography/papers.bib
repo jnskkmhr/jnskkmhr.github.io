@@ -5,15 +5,24 @@
   author={Kamohara, Junnosuke and Wu, Feiyang and Wamorkar, Chinmayee and Hutchinson, Seth and Zhao, Ye},
   journal={arXiv preprint arXiv:2509.18466},
   year={2025},
-  preview={rlaugmentedmpc.png}
+  preview={rlaugmentedmpc.png},
+  abstract={Model predictive control (MPC) has demonstrated effectiveness for humanoid bipedal locomotion; however, its applicability in challenging environments, such as rough and slippery terrain, is limited by the difficulty of modeling terrain interactions. In contrast, reinforcement learning (RL) has achieved notable success in training robust locomotion policies over diverse terrain, yet it lacks guarantees of constraint satisfaction and often requires substantial reward shaping. Recent efforts in combining MPC and RL have shown promise of taking the best of both worlds, but they are primarily restricted to flat terrain or quadrupedal robots. In this work, we propose an RL-augmented MPC framework tailored for bipedal locomotion over rough and slippery terrain. Our method parametrizes three key components of single-rigid-body-dynamics-based MPC: system dynamics, swing leg controller, and gait frequency. We validate our approach through bipedal robot simulations in NVIDIA IsaacLab across various terrains, including stairs, stepping stones, and low-friction surfaces. Experimental results demonstrate that our RL-augmented MPC framework produces significantly more adaptive and robust behaviors compared to baseline MPC and RL.},
+  arxiv={https://arxiv.org/abs/2509.18466},
+  code={https://github.com/rl-augmented-mpc}, 
+  website={https://rl-augmented-mpc.github.io/rlaugmentedmpc/}, 
+  video={https://youtu.be/7Pe_6futIfM?si=potLc7qiqUTy-kFi}
 }
 
 @article{kamohara2024modeling,
   title={Modeling of terrain deformation by a grouser wheel for lunar rover simulation},
   author={Kamohara, Junnosuke and Ares, Vinicius and Hurrell, James and Takehana, Keisuke and Richard, Antoine and Santra, Shreya and Uno, Kentaro and Rohmer, Eric and Yoshida, Kazuya},
-  journal={arXiv preprint arXiv:2408.13468},
+  booktitle={2024 International Society for Terrain-Vehicle Systems (ISTVS)},
   year={2024},
-  preview={istvs.gif}
+  preview={istvs.gif}, 
+  abstract={Simulation of vehicle motion in planetary environments is challenging. This is due to the modeling of complex terrain, optical conditions, and terrain-aware vehicle dynamics. One of the critical issues of typical simulators is that they assume terrain is a rigid body, which limits their ability to render wheel traces and compute the wheel-terrain interactions. This prevents, for example, the use of wheel traces as landmarks for localization, as well as the accurate simulation of motion. In the context of lunar regolith, the surface is not rigid but granular. As such, there are differences in the rover's motion, such as sinkage and slippage, and a clear wheel trace left behind the rover, compared to that on a rigid terrain. This study presents a novel approach to integrating a terramechanics-aware terrain deformation engine to simulate a realistic wheel trace in a digital lunar environment. By leveraging Discrete Element Method simulation results alongside experimental single-wheel test data, we construct a regression model to derive deformation height as a function of contact normal force. The region of interest in a height map is retrieved from the wheel poses. The elevation values of corresponding pixels are subsequently modified using contact normal forces and the regression model. Finally, we apply the determined elevation change to each mesh vertex to render wheel traces during runtime. The deformation engine is integrated into our ongoing development of a lunar simulator based on NVIDIA's Omniverse IsaacSim. We hypothesize that our work will be crucial to testing perception and downstream navigation systems under conditions similar to outdoor or terrestrial fields.},
+  arxiv={https://arxiv.org/abs/2408.13468},
+  code={https://github.com/OmniLRS/OmniLRS}, 
+  video={https://youtu.be/TpzD0h-5hv4?si=mNzFwv-fzC2VCDXD}
 }
 
 @inproceedings{richard2024omnilrs,
@@ -23,5 +32,9 @@
   pages={16901--16907},
   year={2024},
   organization={IEEE}, 
-  preview={icra24.gif}
+  preview={icra24.gif}, 
+  abstract={Developing algorithms for extra-terrestrial robotic exploration has always been challenging. Along with the complexity associated with these environments, one of the main issues remains the evaluation of said algorithms. With the regained interest in lunar exploration, there is also a demand for quality simulators that will enable the development of lunar robots. % In this paper, we explain how we built a Lunar simulator based on Isaac Sim, Nvidia's robotic simulator. In this paper, we propose Omniverse Lunar Robotic-Sim (OmniLRS) that is a photorealistic Lunar simulator based on Nvidia's robotic simulator. This simulation provides fast procedural environment generation, multi-robot capabilities, along with synthetic data pipeline for machine-learning applications. It comes with ROS1 and ROS2 bindings to control not only the robots, but also the environments. This work also performs sim-to-real rock instance segmentation to show the effectiveness of our simulator for image-based perception. Trained on our synthetic data, a yolov8 model achieves performance close to a model trained on real-world data, with 5% performance gap. When finetuned with real data, the model achieves 14% higher average precision than the model trained on real-world data, demonstrating our simulator's photorealism.% to realize sim-to-real.},
+  arxiv={https://arxiv.org/abs/2309.08997},
+  code={https://github.com/OmniLRS/OmniLRS}, 
+  video={https://youtu.be/PebUZjm0WuA?si=Ov-QX4NlArybNu0b}
 }

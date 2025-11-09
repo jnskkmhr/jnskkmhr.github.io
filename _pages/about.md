@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Georgia Institute of Technology, Robotics PhD</a>. GA 30332, USA. jkamohara3@gatech.edu.
+# subtitle: <a href='#'>Georgia Institute of Technology, Robotics PhD</a>. GA 30332, USA. jkamohara3@gatech.edu.
 
 profile:
   align: right
@@ -26,13 +26,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I am a Ph.D. student in Robotics at Georgia Institute of Technology, advised by [Dr. Ye Zhao](https://www.me.gatech.edu/faculty/zhao) and co-advised by [Dr. Seth Hutchinson](https://coe.northeastern.edu/people/hutchinson-seth/) in Northeastern University.
 
-I am Junnosuke Kamohara and currently a 2nd-year Robotics PhD student at Georgia Institute of Technology, [LiDAR group](https://lab-idar.gatech.edu/). 
-My research interests are (1) Combination of model-based and learning-based controllers in legged robotics, (2) system identification of outdoor natural terrain, (3) Perceptive locomotion in outdoor challenging terrain.
-If you are interested in my background or possible research collaboration, please reach out to me!
+Previously, I received a B.S. in Mechanical Engineering from Tohoku University in Japan advised by [Dr. Kazuya Yoshida](https://ieeexplore.ieee.org/author/37329693000).
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+## research
+I'm interested in humanoid locomotion in challenging outdoor terrain.
+Particularly, my research focus includes 
+(1) Combination of model-based and learning-based controllers to achieve robust and versatile behaviors, 
+(2) Modeling and system identification of soft terrain, 
+(3) Perceptive locomotion using vision and proprioception. 
