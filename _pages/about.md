@@ -28,11 +28,11 @@ latest_posts:
 ---
 I am a Ph.D. student in Robotics at Georgia Institute of Technology, advised by [Dr. Ye Zhao](https://www.me.gatech.edu/faculty/zhao) and co-advised by [Dr. Seth Hutchinson](https://coe.northeastern.edu/people/hutchinson-seth/) in Northeastern University.
 
-Previously, I received a B.S. in Mechanical Engineering from Tohoku University in Japan advised by [Dr. Kazuya Yoshida](https://ieeexplore.ieee.org/author/37329693000).
+Previously, I received a B.S. in aerospace and mechanical engineering from Tohoku University in Japan advised by [Dr. Kazuya Yoshida](https://ieeexplore.ieee.org/author/37329693000).
 
 ## research
-I'm interested in humanoid locomotion in challenging outdoor terrain.
+I'm interested in humanoid locomotion in outdoor natural terrain.
 Particularly, my research focus includes 
-(1) Combination of model-based and learning-based controllers to achieve robust and versatile behaviors, 
-(2) Modeling and system identification of soft terrain, 
-(3) Perceptive locomotion using vision and proprioception. 
+(1) Combination of model-based and learning-based methods to achieve robust and versatile locomotion/locomanipulation, 
+(2) Modeling and system identification, 
+(3) Skill learning and coordination. 
