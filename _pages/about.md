@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>Georgia Institute of Technology, Robotics PhD</a>. GA 30332, USA. jkamohara3@gatech.edu.
 
@@ -30,9 +30,10 @@ I am a Ph.D. student in Robotics at Georgia Institute of Technology, advised by 
 
 Previously, I received a B.S. in aerospace and mechanical engineering from Tohoku University in Japan advised by [Dr. Kazuya Yoshida](https://ieeexplore.ieee.org/author/37329693000).
 
-## research
-I'm interested in humanoid locomotion in outdoor natural terrain.
-Particularly, my research focus includes 
-(1) Combination of model-based and learning-based methods to achieve robust and versatile locomotion/locomanipulation, 
-(2) Modeling and system identification, 
-(3) Skill learning and coordination. 
+## Research
+My research interests lie in humanoid robot control on unstructured outdoor natural terrain.
+Particularly, my research focus includes:  
+1. MPC and RL combined control for robust and versatile locomotion/loco-manipulation 
+2. RL based humanoid locomotion on deformable terrain
+3. Terrain adaptive locomotion 
+4. Skill learning and coordination for loco-manipulation
