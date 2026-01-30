@@ -9,3 +9,11 @@ description: Please click on the icon to download my CV if it does not appear in
 toc:
   sidebar: left
 ---
+<div class="cv-preview">
+  <iframe 
+    src="https://drive.google.com/file/d/1T_CepxhcUCCLBxfnOjGtqgJtF28S9pe5/view?usp=sharing" 
+    width="100%" 
+    height="600px" 
+    style="border: none;">
+  </iframe>
+</div>
