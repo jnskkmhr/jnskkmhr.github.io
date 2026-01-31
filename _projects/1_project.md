@@ -27,19 +27,19 @@ To validate the effectiveness of our contact model, we conducted a holistic eval
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1Q80-xBo2MURN0YwOGbuw151gN_4z0xzH/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1Q80-xBo2MURN0YwOGbuw151gN_4z0xzH/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true width=1920 %}
     </div>
 </div>
 <div class="caption">
     Performance comparison between rigid terrain policy and soft terrain policy deployed to MPM simulation. 
 </div>
 
-## Hardware validation 
+## Hardware experiment 
 In the future, we will conduct extensive hardware experiments on diverse real-world granular media to validate sim-to-real transfer and demonstrate the practical applicability of our approach across various terrains, including sand, gravel, and other deformable surfaces.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1hkxRZM_mv2P_YO0HoTb8wdCi5di_FpTS/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1hkxRZM_mv2P_YO0HoTb8wdCi5di_FpTS/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true width=1920 %}
     </div>
 </div>
 <div class="caption">
