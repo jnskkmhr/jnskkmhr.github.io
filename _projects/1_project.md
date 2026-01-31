@@ -27,7 +27,7 @@ To validate the effectiveness of our contact model, we conducted a holistic eval
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" src="assets/video/project_1/newton_mpm.mp4" controls=""></video>
+        {% include video.liquid path="https://share.icloud.com/photos/06eTgcRAAXqZ3MQKK2Xrh9lOg" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ In the future, we will conduct extensive hardware experiments on diverse real-wo
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="https://share.icloud.com/photos/095HJjOE1nH_7xUB7Ys_wCM8Q" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
