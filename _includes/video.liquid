@@ -1,6 +1,10 @@
 {% assign extension = include.path | split: '.' | last %}
 
-<figure>
+<figure
+  {% if include.align %}
+    style="text-align: {{ include.align }}"
+  {% endif %}
+>
   {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' %}
     <video
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
