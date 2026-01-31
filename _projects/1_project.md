@@ -2,7 +2,7 @@
 layout: page
 title: Humanoid Locomotion on Granular Media
 description: Learning humanoid locomotion on granular media with reinforcement learning. 
-img: assets/img/project_1/mpm_preview.gif
+img: assets/img/project_1/g1_mpm.gif
 importance: 1
 category: work
 related_publications: false
@@ -27,10 +27,7 @@ To validate the effectiveness of our contact model, we conducted a holistic eval
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/project_1/simulation_video_rigid.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/project_1/simulation_video_rft.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <video style="width:100%" src="assets/video/project_1/newton_mpm.mp4" controls=""></video>
     </div>
 </div>
 <div class="caption">
@@ -42,7 +39,7 @@ In the future, we will conduct extensive hardware experiments on diverse real-wo
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/project_1/2026_01_28_rigid.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <video style="width:100%" src="assets/video/project_1/2026_01_28_rigid.mp44" controls=""></video>
     </div>
 </div>
 <div class="caption">
