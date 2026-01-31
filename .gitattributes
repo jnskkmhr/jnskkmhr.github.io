@@ -5,5 +5,7 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 
+assets/img/** filter=lfs diff=lfs merge=lfs -text
+assets/img/project_1/** filter=lfs diff=lfs merge=lfs -text
 assets/video/** filter=lfs diff=lfs merge=lfs -text
 assets/video/project_1/** filter=lfs diff=lfs merge=lfs -text
