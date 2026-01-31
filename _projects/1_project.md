@@ -27,10 +27,10 @@ To validate the effectiveness of our contact model, we conducted a holistic eval
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" src="assets/video/project_1/simulation_video_rigid.mp4" controls=""></video>
+        {% include video.liquid path="assets/video/project_1/simulation_video_rigid.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" src="assets/video/project_1/simulation_video_rft.mp4" controls=""></video>
+        {% include video.liquid path="assets/video/project_1/simulation_video_rft.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -42,7 +42,7 @@ In the future, we will conduct extensive hardware experiments on diverse real-wo
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" src="assets/video/project_1/2026_01_28_rigid.mp4" controls=""></video>
+        {% include video.liquid path="assets/video/project_1/2026_01_28_rigid.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
