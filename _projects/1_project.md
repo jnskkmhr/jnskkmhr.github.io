@@ -11,7 +11,7 @@ related_publications: false
 This project addresses the significant challenge of bipedal locomotion on granular terrain, which remains hindered by inherent instability and the absence of computationally efficient yet accurate soft terrain models suitable for reinforcement learning (RL) training. To enable successful locomotion, including walking, running, and dynamic motions such as jumping, we have developed a novel soft contact model based on three-dimensional resistive force theory (3D RFT) and leveraged this model to train reinforcement learning policies for humanoid robots.
 
 ## 3D RFT for soft contact modeling 
-We developed a fast-to-solve soft contact and integrated it into IsaacLab, enabling massive simulation parallelization essential for efficient RL policy training. This integration allows us to simulate thousands of environments simultaneously while maintaining physical accuracy in modeling granular interactions.
+We developed a fast-to-solve soft contact model based on three-dimensional resistive force theory (RFT) and integrated it into IsaacLab, enabling massive simulation parallelization essential for efficient RL policy training. This integration allows us to simulate thousands of environments simultaneously while maintaining physical accuracy in modeling granular interactions.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,7 +23,9 @@ We developed a fast-to-solve soft contact and integrated it into IsaacLab, enabl
 </div>
 
 ## Sim2sim evaluation on MPM sand 
-To validate the effectiveness of our contact model, we conducted a holistic evaluation using Material Point Method (MPM) sand simulation as a high-fidelity benchmark. Our results demonstrate that reinforcement learning policies trained using the 3D RFT contact model successfully transfer to MPM simulation environments, whereas policies trained with rigid contact models fail to achieve stable locomotion. This finding exhibits the superiority of our approach in capturing the essential physics of granular media interactions.
+To validate the effectiveness of our contact model, we conducted a holistic evaluation using Material Point Method (MPM) sand simulation as a high-fidelity benchmark. To simulate granular media-robot interactions, we implemented a solver coupling mechanism in nvidia newton where two distinct contact solvers (MjWarp for rigid contact and implicit MPM for granular media) are interactively coupled. This is the implementation limitation in the current newton release as MjWarp does not receive contact forces calculated by MPM unless we apply explicit solver coupling.
+
+Our locomotion results demonstrate that reinforcement learning policies trained using the 3D RFT contact model successfully transfer to MPM simulation environments, whereas policies trained with rigid contact models fail to achieve stable locomotion. This finding exhibits the superiority of our approach in capturing the essential physics of granular media interactions.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
